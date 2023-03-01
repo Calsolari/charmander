@@ -9,15 +9,24 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr 50px;
-    padding: 70px 70px 70px 24px;
-    background-color: rgb(255, 165, 0)
+    padding: 70px 70px 24px 70px;
+    background-color: rgb(255, 238, 0);
+    color: #8E4106;
+    font-family: 'Righteous', cursive;
 }
 
-header{
-    background-color:rgb(132, 0, 165)
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 24px;
 }
+.logo__text{
+    font-size: 32px;
+    font-weight: 100;
+}
+
 main{
-    background-color: rgb(255, 0, 255);
+    background-color: rgb(10, 255, 43);
 }
 footer{
     background-color: rgb(65, 113, 255);
